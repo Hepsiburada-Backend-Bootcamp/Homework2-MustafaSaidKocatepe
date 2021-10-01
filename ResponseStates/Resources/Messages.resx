@@ -1,0 +1,471 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="APIMobileUnexpectedError" xml:space="preserve">
+    <value>APIMobileUnexpectedError</value>
+  </data>
+  <data name="APIPosUnexpectedError" xml:space="preserve">
+    <value>APIPosUnexpectedError</value>
+  </data>
+  <data name="AppealCreditSuccess" xml:space="preserve">
+    <value>AppealCreditSuccess</value>
+  </data>
+  <data name="AppealError" xml:space="preserve">
+    <value>AppealError</value>
+  </data>
+  <data name="AppealLoadCreditSuccess" xml:space="preserve">
+    <value>AppealLoadCreditSuccess</value>
+  </data>
+  <data name="AppealSuccess" xml:space="preserve">
+    <value>AppealSuccess</value>
+  </data>
+  <data name="AppKeyDeleted" xml:space="preserve">
+    <value>AppKeyDeleted</value>
+  </data>
+  <data name="AppKeyExpiry" xml:space="preserve">
+    <value>AppKeyExpiry</value>
+  </data>
+  <data name="AppKeyPassive" xml:space="preserve">
+    <value>AppKeyPassive</value>
+  </data>
+  <data name="AppKeyWrong" xml:space="preserve">
+    <value>AppKeyWrong</value>
+  </data>
+  <data name="BlockedUser" xml:space="preserve">
+    <value>BlockedUser</value>
+  </data>
+  <data name="CardAdd" xml:space="preserve">
+    <value>CardAdd</value>
+  </data>
+  <data name="CardBlocked" xml:space="preserve">
+    <value>CardBlocked</value>
+  </data>
+  <data name="CardDeleted" xml:space="preserve">
+    <value>CardDeleted</value>
+  </data>
+  <data name="CardDeleteSuccess" xml:space="preserve">
+    <value>CardDeleteSuccess</value>
+  </data>
+  <data name="CardFoundSame" xml:space="preserve">
+    <value>CardFoundSame</value>
+  </data>
+  <data name="CardInActive" xml:space="preserve">
+    <value>CardInActive</value>
+  </data>
+  <data name="CardLoadCredit" xml:space="preserve">
+    <value>CardLoadCredit</value>
+  </data>
+  <data name="CardNotCreate" xml:space="preserve">
+    <value>CardNotCreate</value>
+  </data>
+  <data name="CardNotDelete" xml:space="preserve">
+    <value>CardNotDelete</value>
+  </data>
+  <data name="CardNotFound" xml:space="preserve">
+    <value>CardNotFound</value>
+  </data>
+  <data name="CardNotIncludeID" xml:space="preserve">
+    <value>CardNotIncludeID</value>
+  </data>
+  <data name="CardNotUpdate" xml:space="preserve">
+    <value>CardNotUpdate</value>
+  </data>
+  <data name="CardUpdateSuccess" xml:space="preserve">
+    <value>CardUpdateSuccess</value>
+  </data>
+  <data name="CardUserAdd" xml:space="preserve">
+    <value>Talebiniz alınmıştır.</value>
+  </data>
+  <data name="CommissionDeleted" xml:space="preserve">
+    <value>CommissionDeleted</value>
+  </data>
+  <data name="CommissionNotFound" xml:space="preserve">
+    <value>CommissionNotFound</value>
+  </data>
+  <data name="CompanyAppealCreated" xml:space="preserve">
+    <value>CompanyAppealCreated</value>
+  </data>
+  <data name="CompanyAppealNotCreated" xml:space="preserve">
+    <value>CompanyAppealNotCreated</value>
+  </data>
+  <data name="CompanyAppealNotSendMail" xml:space="preserve">
+    <value>NotCompanyAppealSendMail</value>
+  </data>
+  <data name="CompanyBlocked" xml:space="preserve">
+    <value>CompanyBlocked</value>
+  </data>
+  <data name="CompanyFoundSame" xml:space="preserve">
+    <value>CompanyFoundSame</value>
+  </data>
+  <data name="CompanyNoContent" xml:space="preserve">
+    <value>CompanyNoContent</value>
+  </data>
+  <data name="CompanyNotDelete" xml:space="preserve">
+    <value>CompanyNotDelete</value>
+  </data>
+  <data name="CompanyNotSameID" xml:space="preserve">
+    <value>CompanyNotSameID</value>
+  </data>
+  <data name="CompanyNotUpdate" xml:space="preserve">
+    <value>CompanyNotUpdate</value>
+  </data>
+  <data name="DeletedUser" xml:space="preserve">
+    <value>DeletedUser</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="FleetFoundSame" xml:space="preserve">
+    <value>FleetFoundSame</value>
+  </data>
+  <data name="GasStationBlocked" xml:space="preserve">
+    <value>GasStationBlocked</value>
+  </data>
+  <data name="GasStationDeleted" xml:space="preserve">
+    <value>GasStationDeleted</value>
+  </data>
+  <data name="GasStationInActive" xml:space="preserve">
+    <value>GasStationInActive</value>
+  </data>
+  <data name="GasStationNotFound" xml:space="preserve">
+    <value>GasStationNotFound</value>
+  </data>
+  <data name="InActiveUser" xml:space="preserve">
+    <value>InActiveUser</value>
+  </data>
+  <data name="LoadBalanceError" xml:space="preserve">
+    <value>LoadBalanceError</value>
+  </data>
+  <data name="LoadBalanceSuccess" xml:space="preserve">
+    <value>LoadBalanceSuccess</value>
+  </data>
+  <data name="MailForgotPasswordSendSucces" xml:space="preserve">
+    <value>MailForgotPasswordSendSucces</value>
+  </data>
+  <data name="ManagementUIValidationError" xml:space="preserve">
+    <value>ManagementUIValidationError</value>
+  </data>
+  <data name="NoContent" xml:space="preserve">
+    <value>NoContent</value>
+  </data>
+  <data name="NotEnoughCredit" xml:space="preserve">
+    <value>NotEnoughCredit</value>
+  </data>
+  <data name="NotFoundCode" xml:space="preserve">
+    <value>NotFoundCode</value>
+  </data>
+  <data name="NotFoundUser" xml:space="preserve">
+    <value>NotFoundUser</value>
+  </data>
+  <data name="NotPosUser" xml:space="preserve">
+    <value>NotPosUser</value>
+  </data>
+  <data name="NotSendMail" xml:space="preserve">
+    <value>NotSendMail</value>
+  </data>
+  <data name="NumberPlateCountZero" xml:space="preserve">
+    <value>NumberPlateCountZero</value>
+  </data>
+  <data name="NumberPlateCreate" xml:space="preserve">
+    <value>NumberPlateCreate</value>
+  </data>
+  <data name="NumberPlateNotCreate" xml:space="preserve">
+    <value>Plaka ekleme işlemi sırasında bir hata oluştuğundan dolayı işleminiz tamamlanamamıştır.</value>
+  </data>
+  <data name="NumberPlateNotFound" xml:space="preserve">
+    <value>NumberPlateNotFound</value>
+  </data>
+  <data name="NumberPlateNotMatchUser" xml:space="preserve">
+    <value>NumberPlateNotMatchUser</value>
+  </data>
+  <data name="NumberPlateNotRemove" xml:space="preserve">
+    <value>NumberPlateNotRemove</value>
+  </data>
+  <data name="NumberPlateRemove" xml:space="preserve">
+    <value>NumberPlateRemove</value>
+  </data>
+  <data name="OilStationError" xml:space="preserve">
+    <value>OilStationError</value>
+  </data>
+  <data name="OilStationFoundSame" xml:space="preserve">
+    <value>OilStationFoundSame</value>
+  </data>
+  <data name="OilStationSuccess" xml:space="preserve">
+    <value>OilStationSuccess</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="PosMachineAppealCreated" xml:space="preserve">
+    <value>PosMachineAppealCreated</value>
+  </data>
+  <data name="PosMachineCreated" xml:space="preserve">
+    <value>PosMachineCreated</value>
+  </data>
+  <data name="PosMachineDeleted" xml:space="preserve">
+    <value>PosMachineDeleted</value>
+  </data>
+  <data name="PosMachineFoundSame" xml:space="preserve">
+    <value>PosMachineFoundSame</value>
+  </data>
+  <data name="PosMachineInActive" xml:space="preserve">
+    <value>PosMachineInActive</value>
+  </data>
+  <data name="PosMachineNotCreated" xml:space="preserve">
+    <value>PosMachineNotCreated</value>
+  </data>
+  <data name="PosMachineNotFound" xml:space="preserve">
+    <value>PosMachineNotFound</value>
+  </data>
+  <data name="QRTransactionCanceled" xml:space="preserve">
+    <value>QRTransactionCanceled</value>
+  </data>
+  <data name="QRTransactionCantPrintReceipt" xml:space="preserve">
+    <value>QRTransactionCantPrintReceipt</value>
+  </data>
+  <data name="QRTransactionConfirmed" xml:space="preserve">
+    <value>QRTransactionConfirmed</value>
+  </data>
+  <data name="QRTransactionNotCanceled" xml:space="preserve">
+    <value>QRTransactionNotCanceled</value>
+  </data>
+  <data name="QRTransactionNotConfirmed" xml:space="preserve">
+    <value>QRTransactionNotConfirmed</value>
+  </data>
+  <data name="QRTransactionNotCreate" xml:space="preserve">
+    <value>QRTransactionNotCreate</value>
+  </data>
+  <data name="QRTransactionNotFound" xml:space="preserve">
+    <value>QRTransactionNotFound</value>
+  </data>
+  <data name="QRTransactionNotRejeted" xml:space="preserve">
+    <value>QRTransactionNotRejeted</value>
+  </data>
+  <data name="QRTransactionNotTimeOut" xml:space="preserve">
+    <value>QRTransactionNotTimeOut</value>
+  </data>
+  <data name="QRTransactionNotWaiting" xml:space="preserve">
+    <value>QRTransactionNotWaiting</value>
+  </data>
+  <data name="QRTransactionRejeted" xml:space="preserve">
+    <value>QRTransactionRejeted</value>
+  </data>
+  <data name="QRTransactionTimeOut" xml:space="preserve">
+    <value>QRTransactionTimeOut</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="TokenExpiry" xml:space="preserve">
+    <value>TokenExpiry</value>
+  </data>
+  <data name="TokenInvalid" xml:space="preserve">
+    <value>TokenInvalid</value>
+  </data>
+  <data name="TokenNotFound" xml:space="preserve">
+    <value>TokenNotFound</value>
+  </data>
+  <data name="TransactionNoContent" xml:space="preserve">
+    <value>TransactionNoContent</value>
+  </data>
+  <data name="TransactionNotCreate" xml:space="preserve">
+    <value>TransactionNotCreate</value>
+  </data>
+  <data name="TransactionNotEnoughDistance" xml:space="preserve">
+    <value>NotEnoughDistance</value>
+  </data>
+  <data name="TransactionTypeNotCreate" xml:space="preserve">
+    <value>TransactionTypeNotCreate</value>
+  </data>
+  <data name="TransactionTypeNotFound" xml:space="preserve">
+    <value>TransactionTypeNotFound</value>
+  </data>
+  <data name="TransactionWrongCardType" xml:space="preserve">
+    <value>TransactionWrongCardType</value>
+  </data>
+  <data name="Unauthorized" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="UnexpectedError" xml:space="preserve">
+    <value>UnexpectedError</value>
+  </data>
+  <data name="UserChangedPassword" xml:space="preserve">
+    <value>UserChangedPassword</value>
+  </data>
+  <data name="UserChangePassword" xml:space="preserve">
+    <value>UserChangePassword</value>
+  </data>
+  <data name="UserCodeExpriy" xml:space="preserve">
+    <value>UserCodeExpriy</value>
+  </data>
+  <data name="UserCodeNotCreated" xml:space="preserve">
+    <value>UserCodeNotCreated</value>
+  </data>
+  <data name="UserCreate" xml:space="preserve">
+    <value>UserCreate</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>UserDeleted</value>
+  </data>
+  <data name="UserEmailUpdate" xml:space="preserve">
+    <value>UserEmailUpdate</value>
+  </data>
+  <data name="UserForgotPasswordSendSucces" xml:space="preserve">
+    <value>UserForgotPasswordSendSucces</value>
+  </data>
+  <data name="UserFound" xml:space="preserve">
+    <value>UserFound</value>
+  </data>
+  <data name="UserFoundSame" xml:space="preserve">
+    <value>UserFoundSame</value>
+  </data>
+  <data name="UserNotChangedPassword" xml:space="preserve">
+    <value>UserNotChangedPassword</value>
+  </data>
+  <data name="UserNotCreate" xml:space="preserve">
+    <value>UserNotCreate</value>
+  </data>
+  <data name="UserNotSameID" xml:space="preserve">
+    <value>UserNotSameID</value>
+  </data>
+  <data name="UserNotUpdate" xml:space="preserve">
+    <value>UserNotUpdate</value>
+  </data>
+  <data name="UserPasswordConfirm" xml:space="preserve">
+    <value>UserPasswordConfirm</value>
+  </data>
+  <data name="UserUpdate" xml:space="preserve">
+    <value>UserUpdate</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>ValidationError</value>
+  </data>
+  <data name="WebUIValidationError" xml:space="preserve">
+    <value>WebUIValidationError</value>
+  </data>
+  <data name="WrongMail" xml:space="preserve">
+    <value>WrongMail</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>WrongPassword</value>
+  </data>
+  <data name="WrongUser" xml:space="preserve">
+    <value>WrongUser</value>
+  </data>
+</root>
