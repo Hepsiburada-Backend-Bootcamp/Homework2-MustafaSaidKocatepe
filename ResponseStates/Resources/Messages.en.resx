@@ -117,349 +117,145 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="APIMobileUnexpectedError" xml:space="preserve">
-    <value>Your transaction could not be completed because an unexpected error was encountered.</value>
-  </data>
-  <data name="APIPosUnexpectedError" xml:space="preserve">
-    <value>Your transaction could not be completed because an unexpected error was encountered.</value>
-  </data>
-  <data name="AppealError" xml:space="preserve">
-    <value>Başvuru işleminiz sırasında bir hata oluştuğundan dolayı işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="AppealLoadCreditSuccess" xml:space="preserve">
-    <value>Your credit loading request has been received.</value>
-  </data>
   <data name="AppealSuccess" xml:space="preserve">
-    <value>Başvuru işleminiz başarıyla gerçekleştirilmiş.</value>
+    <value />
   </data>
   <data name="AppKeyDeleted" xml:space="preserve">
-    <value>The application key has been deleted.</value>
+    <value>Uygulama anahtarı silinmiştir.</value>
   </data>
   <data name="AppKeyExpiry" xml:space="preserve">
-    <value>Validity period of the application key has expired.</value>
+    <value>Uygulama anahtarının geçerlilik süresi bitmiştir.</value>
   </data>
   <data name="AppKeyPassive" xml:space="preserve">
-    <value>The application key is not active.</value>
+    <value>Uygulama anahtarı aktif değildir.</value>
   </data>
   <data name="AppKeyWrong" xml:space="preserve">
-    <value>Invalid application key.</value>
+    <value>Geçersiz uygulama anahtarı.</value>
   </data>
   <data name="BlockedUser" xml:space="preserve">
-    <value>user can not be used temporarily . Please contact the system administrator.</value>
-  </data>
-  <data name="CardAdd" xml:space="preserve">
-    <value>Your card has been successfully defined into your account.</value>
-  </data>
-  <data name="CardBlocked" xml:space="preserve">
-    <value>Your card cannot be used temporarily.</value>
-  </data>
-  <data name="CardDeleted" xml:space="preserve">
-    <value>No valid card has  been found.</value>
-  </data>
-  <data name="CardDeleteSuccess" xml:space="preserve">
-    <value>Your card has been successfully deleted.</value>
-  </data>
-  <data name="CardFoundSame" xml:space="preserve">
-    <value>The same card cannot be added more than once.</value>
-  </data>
-  <data name="CardInActive" xml:space="preserve">
-    <value>Active card could not be  found.</value>
-  </data>
-  <data name="CardLoadCredit" xml:space="preserve">
-    <value>The loading has been done.</value>
-  </data>
-  <data name="CardNotCreate" xml:space="preserve">
-    <value>The new card could not be added.</value>
-  </data>
-  <data name="CardNotDelete" xml:space="preserve">
-    <value>Your card could not be deleted.</value>
-  </data>
-  <data name="CardNotFound" xml:space="preserve">
-    <value>No valid card has  been found.</value>
-  </data>
-  <data name="CardNotIncludeID" xml:space="preserve">
-    <value>The selected card information is not included in your registered cards.</value>
-  </data>
-  <data name="CardNotUpdate" xml:space="preserve">
-    <value>Your card could not be updated.</value>
-  </data>
-  <data name="CardUpdateSuccess" xml:space="preserve">
-    <value>The card has been updated successfully.</value>
-  </data>
-  <data name="CardUserAdd" xml:space="preserve">
-    <value>Your request has been received.</value>
-  </data>
-  <data name="CommissionDeleted" xml:space="preserve">
-    <value>The company's commission rate has been deleted.</value>
-  </data>
-  <data name="CommissionNotFound" xml:space="preserve">
-    <value>The company's commission rate has not been found.</value>
-  </data>
-  <data name="CompanyAppealCreated" xml:space="preserve">
-    <value>Your institution application process has been successfully completed.</value>
-  </data>
-  <data name="CompanyAppealNotCreated" xml:space="preserve">
-    <value>Your institution application process could not be completed due to an error.</value>
-  </data>
-  <data name="CompanyAppealNotSendMail" xml:space="preserve">
-    <value>Your application has been received, but there was an error sending an e-mail.</value>
-  </data>
-  <data name="CompanyBlocked" xml:space="preserve">
-    <value>Your card cannot be used temporarily.</value>
-  </data>
-  <data name="CompanyFoundSame" xml:space="preserve">
-    <value>The same institution record cannot be added more than once.</value>
-  </data>
-  <data name="CompanyNoContent" xml:space="preserve">
-    <value>The company near you could not be found.</value>
-  </data>
-  <data name="CompanyNotDelete" xml:space="preserve">
-    <value>The institution could not be deleted.</value>
-  </data>
-  <data name="CompanyNotSameID" xml:space="preserve">
-    <value>Since the token and the company data are not registered as a joint record, transactions cannot be made.</value>
-  </data>
-  <data name="CompanyNotUpdate" xml:space="preserve">
-    <value>No institution is  found.</value>
+    <value>Kullanıcınız geçici olarak kullanılamaz. Lütfen, sitem yöneticisine başvurunuz.</value>
   </data>
   <data name="DeletedUser" xml:space="preserve">
-    <value>Valid user is not found. Please contact the system administrator.</value>
+    <value>Geçerli kullanıcı bulunamadı. Sistem yöneticisine başvurunuz.</value>
   </data>
   <data name="Error" xml:space="preserve">
-    <value>Operation Failed</value>
-  </data>
-  <data name="FleetFoundSame" xml:space="preserve">
-    <value>Aynı filo şirketi birden fazla eklenemez.</value>
-  </data>
-  <data name="GasStationBlocked" xml:space="preserve">
-    <value>No valid card is found.</value>
-  </data>
-  <data name="GasStationDeleted" xml:space="preserve">
-    <value>GasStationDeleted</value>
-  </data>
-  <data name="GasStationInActive" xml:space="preserve">
-    <value>Active institution record is not found.</value>
-  </data>
-  <data name="GasStationNotFound" xml:space="preserve">
-    <value>The institution has not been found.</value>
+    <value>İşlem Başarısız</value>
   </data>
   <data name="InActiveUser" xml:space="preserve">
-    <value>Active user is not found. Please contact the system administrator.</value>
+    <value>Aktif kullanıcı bulunamadı. Sistem yöneticisine başvurunuz.</value>
   </data>
   <data name="LoadBalanceError" xml:space="preserve">
-    <value>LoadBalanceError</value>
+    <value>Bakiye yükleme işlemi sırasında bir hata ile karşılaşıldı. Lütfen tekrar deneyiniz. </value>
   </data>
   <data name="LoadBalanceSuccess" xml:space="preserve">
-    <value>LoadBalanceSuccess</value>
+    <value>Bakiyeniz yüklenmiştir.</value>
   </data>
-  <data name="MailForgetPasswordSendSucces" xml:space="preserve">
-    <value>If your e-mail address is registered in our system, an e-mail will be sent to renew the password.</value>
+  <data name="MailForgotPasswordSendSucces" xml:space="preserve">
+    <value>Girdiğiniz mail adresiniz sistemimizde kayıtlı ise şifre yenilemek için mail gönderilecektir.</value>
   </data>
   <data name="ManagementUIValidationError" xml:space="preserve">
-    <value>Your transaction could not be completed because missing information was encountered.</value>
+    <value>Eksik bilgi ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="NoContent" xml:space="preserve">
-    <value>No payment has been received today.</value>
+    <value>NoContent</value>
   </data>
   <data name="NotEnoughCredit" xml:space="preserve">
-    <value>There is not enough credit.</value>
+    <value>Yeterli Kredi Bulunamaktadır.</value>
   </data>
   <data name="NotFoundCode" xml:space="preserve">
-    <value>The code entered for resetting the password is incorrect. Please try again or get a new code.</value>
+    <value>Şifre yenilemek için girilen kod yanlıştır. Lütfen, tekrar deneyiniz yada yeni kod alınız.</value>
   </data>
   <data name="NotFoundUser" xml:space="preserve">
-    <value>User could not be found. Please login again.</value>
+    <value>Kullanıcı bulunamadı. </value>
   </data>
   <data name="NotPosUser" xml:space="preserve">
-    <value>The user is not authorized to access the Pos Device.</value>
+    <value>Kullanıcının Pos Cihazına erişim yetkisi bulunmamaktadır.</value>
   </data>
   <data name="NotSendMail" xml:space="preserve">
-    <value>The password reset code could not be sent to the user's e-mail address. Please try again later.</value>
-  </data>
-  <data name="NumberPlateCountZero" xml:space="preserve">
-    <value>NumberPlateCountZero</value>
-  </data>
-  <data name="NumberPlateCreate" xml:space="preserve">
-    <value>NumberPlateCreate</value>
-  </data>
-  <data name="NumberPlateNotCreate" xml:space="preserve">
-    <value>Plaka ekleme işlemi sırasında bir hata oluştuğundan dolayı işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="NumberPlateNotFound" xml:space="preserve">
-    <value>NumberPlateNotFound</value>
-  </data>
-  <data name="NumberPlateNotMatchUser" xml:space="preserve">
-    <value>NumberPlateNotMatchUser</value>
-  </data>
-  <data name="NumberPlateNotRemove" xml:space="preserve">
-    <value>NumberPlateNotRemove</value>
-  </data>
-  <data name="NumberPlateRemove" xml:space="preserve">
-    <value>NumberPlateRemove</value>
-  </data>
-  <data name="OilStationError" xml:space="preserve">
-    <value>Benzin istasyonu ekleme işlemi sırasında bir hata ile karşılaşılmıştır. </value>
-  </data>
-  <data name="OilStationFoundSame" xml:space="preserve">
-    <value>Aynı benzin istastonu birden fazla eklenemez.</value>
-  </data>
-  <data name="OilStationSuccess" xml:space="preserve">
-    <value>Benzin istasyonu ekleme işleminiz tamamlanmıştır.</value>
+    <value>Kullanıcının mail adresine mail gönderilemedi. Lütfen daha sonra tekrar deneyiniz.</value>
   </data>
   <data name="OK" xml:space="preserve">
-    <value>Process Successful.</value>
-  </data>
-  <data name="PosMachineAppealCreated" xml:space="preserve">
-    <value>Your Pos Machine request has been received.</value>
-  </data>
-  <data name="PosMachineCreated" xml:space="preserve">
-    <value>Pos device has been registered to the system.</value>
-  </data>
-  <data name="PosMachineDeleted" xml:space="preserve">
-    <value>The valid pos device could not be found.</value>
-  </data>
-  <data name="PosMachineFoundSame" xml:space="preserve">
-    <value>PosMachineFoundSame</value>
-  </data>
-  <data name="PosMachineInActive" xml:space="preserve">
-    <value>Active pos device could not be found.</value>
-  </data>
-  <data name="PosMachineNotCreated" xml:space="preserve">
-    <value>PosMachineNotCreated</value>
-  </data>
-  <data name="PosMachineNotFound" xml:space="preserve">
-    <value>Pos Device information could not be found.</value>
-  </data>
-  <data name="QRTransactionCanceled" xml:space="preserve">
-    <value>Sale has been canceled with QR .</value>
-  </data>
-  <data name="QRTransactionCantPrintReceipt" xml:space="preserve">
-    <value>Sale transaction is completed with QR.  But the receipt print will not be able completed.</value>
-  </data>
-  <data name="QRTransactionConfirmed" xml:space="preserve">
-    <value>Sale is approved by QR.</value>
-  </data>
-  <data name="QRTransactionNotCanceled" xml:space="preserve">
-    <value>The sale could not have been canceled with QR.</value>
-  </data>
-  <data name="QRTransactionNotConfirmed" xml:space="preserve">
-    <value>Sale could not have been confirmed with QR.</value>
-  </data>
-  <data name="QRTransactionNotCreate" xml:space="preserve">
-    <value>QR Payment transaction could not be processed.</value>
-  </data>
-  <data name="QRTransactionNotFound" xml:space="preserve">
-    <value>No valid QR sales information is found.</value>
-  </data>
-  <data name="QRTransactionNotRejeted" xml:space="preserve">
-    <value>The sale has been declined by QR.</value>
-  </data>
-  <data name="QRTransactionNotTimeOut" xml:space="preserve">
-    <value>QR sales transaction time-out  has not been processed.</value>
-  </data>
-  <data name="QRTransactionNotWaiting" xml:space="preserve">
-    <value>An error has been encountered during the QR reading.</value>
-  </data>
-  <data name="QRTransactionRejeted" xml:space="preserve">
-    <value>The sale has been declined by QR.</value>
-  </data>
-  <data name="QRTransactionTimeOut" xml:space="preserve">
-    <value>QR sale transaction time has  exceeded.  Please make a new sale transaction.</value>
+    <value>İşlem Başarılı.</value>
   </data>
   <data name="Success" xml:space="preserve">
-    <value>Transaction is successful.</value>
+    <value>İşlem Başarılı</value>
   </data>
   <data name="TokenExpiry" xml:space="preserve">
-    <value>The session has  expired.  Please login again.</value>
+    <value>Oturumun geçerlilik süresi dolmuştur. Lütfen, yeninden giriş yapınız.</value>
   </data>
   <data name="TokenInvalid" xml:space="preserve">
-    <value>Invalid session information, please login again.</value>
+    <value>Geçersiz oturum bilgisi, Lütfen, yeninden giriş yapınız.</value>
   </data>
   <data name="TokenNotFound" xml:space="preserve">
-    <value>Session information has not been found. Please, login.</value>
-  </data>
-  <data name="TransactionNoContent" xml:space="preserve">
-    <value>There is no card history to show.</value>
-  </data>
-  <data name="TransactionNotCreate" xml:space="preserve">
-    <value>Payment transaction has been failed.</value>
-  </data>
-  <data name="TransactionNotEnoughDistance" xml:space="preserve">
-    <value>Pos cihazı ile Mobil cihazın konumları arasında {0} metreden fazla mesafe bulunduğundan. Satış işlemi gerçekleştirilemedi.</value>
-  </data>
-  <data name="TransactionTypeNotCreate" xml:space="preserve">
-    <value>Payment type could not be created.</value>
-  </data>
-  <data name="TransactionWrongCardType" xml:space="preserve">
-    <value>Seçilen ödeme tipi ile kullanılmak istenilen ödeme tipleri farklı olduğundan, işleminiz tamamlanamamıştır.</value>
+    <value>Oturum bilgisi bulunamadı. Lütfen, giriş yapınız.</value>
   </data>
   <data name="Unauthorized" xml:space="preserve">
-    <value>Unauthorized</value>
+    <value>Yetkisiz.</value>
   </data>
   <data name="UnexpectedError" xml:space="preserve">
-    <value>Your operation could not be completed because an unexpected error had been encountered.</value>
+    <value>Beklenilmeyen bir hata ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="UserChangedPassword" xml:space="preserve">
-    <value>Your password has been changed successfully.</value>
+    <value>Şifreniz başarıyla değiştirildi.</value>
   </data>
   <data name="UserChangePassword" xml:space="preserve">
-    <value>Please, create a new password.</value>
+    <value>Lüften, Yeni parola oluşturunuz.</value>
   </data>
   <data name="UserCodeExpriy" xml:space="preserve">
-    <value>The validity period of the  code entered has expired. Please get a new code.</value>
+    <value>Girilen kodun geçerlilik süresi dolmuştur. Lütfen, yeni kod alınız.</value>
+  </data>
+  <data name="UserCodeNotCreated" xml:space="preserve">
+    <value>Şifre oluşturmak için mail gönderilemedi.</value>
   </data>
   <data name="UserCreate" xml:space="preserve">
-    <value>Your registration has been completed successfully.</value>
+    <value>Kayıt işleminiz başarıyla gerçekleşmiştir.</value>
   </data>
   <data name="UserDeleted" xml:space="preserve">
-    <value>UserDeleted</value>
+    <value>Kullanıcı başarılı bir şekilde silindi.</value>
   </data>
   <data name="UserEmailUpdate" xml:space="preserve">
-    <value>UserEmailUpdate</value>
-  </data>
-  <data name="UserForgetPasswordSendSucces" xml:space="preserve">
-    <value>If the user name you entered is in our system, an e-mail will be sent to your registered e-mail address to renew the password.</value>
+    <value>Kullanıcı posta adresi başarılı bir şekilde güncellenmiştir.</value>
   </data>
   <data name="UserForgotPasswordSendSucces" xml:space="preserve">
-    <value>If the user name you entered is in our system, an e-mail will be sent to your registered e-mail address to renew the password.</value>
+    <value>Girdiğiniz kullanıcı adı sistemimizde bulunuyor ise kayıtlı mail adresinize şifre yenilemek için mail gönderilecektir.</value>
   </data>
   <data name="UserFound" xml:space="preserve">
-    <value>User has been found.</value>
+    <value>Kullanıcı bulundu.</value>
   </data>
   <data name="UserFoundSame" xml:space="preserve">
-    <value>The e-mail address entered is registered. Please, login.</value>
+    <value>Girilen mail adresi kayıtlıdır. Lütfen, giriş yapınız.</value>
   </data>
   <data name="UserNotChangedPassword" xml:space="preserve">
-    <value>Your password could not be changed.</value>
+    <value>Şifreniz değiştirilemedi.</value>
   </data>
   <data name="UserNotCreate" xml:space="preserve">
-    <value>User could not be created.</value>
+    <value>Kullanıcı oluşturulamadı.</value>
   </data>
   <data name="UserNotSameID" xml:space="preserve">
-    <value>Since the token and the user are not the same record , no transactions can be made.</value>
+    <value>Token ile kullanıcı aynı kayıt olmadığından işlem yapılamaz.</value>
   </data>
   <data name="UserNotUpdate" xml:space="preserve">
-    <value>The user could not be updated.</value>
+    <value>Kullanıcı güncellenemedi.</value>
   </data>
   <data name="UserPasswordConfirm" xml:space="preserve">
-    <value>The passwords entered are not the same. Please enter the same passwords.</value>
+    <value>Girilen şifreler birbirleriyle aynı değildir. Lütfen, şifleri aynı giriniz.</value>
   </data>
   <data name="UserUpdate" xml:space="preserve">
-    <value>User registration has been edited.</value>
+    <value>Kullanıcı başarılı bir şekilde güncellendi.</value>
   </data>
   <data name="ValidationError" xml:space="preserve">
-    <value>Your transaction could not be completed because missing information was encountered.</value>
+    <value>Eksik bilgi ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="WebUIValidationError" xml:space="preserve">
-    <value>Your transaction could not be completed because missing information was encountered.</value>
+    <value>Eksik bilgi ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="WrongMail" xml:space="preserve">
-    <value>A registered e-mail address record could not be found.</value>
+    <value>Kayıtlı bir mail adresi bulunamadı.</value>
   </data>
   <data name="WrongPassword" xml:space="preserve">
-    <value>Invalid password.</value>
+    <value>Geçersiz şifre.</value>
   </data>
   <data name="WrongUser" xml:space="preserve">
-    <value>Invalid user or password.</value>
+    <value>Geçersiz kullanıcı yada şifre hatalı.</value>
   </data>
 </root>

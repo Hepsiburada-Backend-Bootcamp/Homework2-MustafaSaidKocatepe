@@ -181,15 +181,11 @@ namespace ResponseStates.Enums
 
 
         [StateDisplay(Code = 200, SubCode = 20200, Name = "UserFound", Success = true)]
-        UserFound = 20200,
-        //[StateDisplay(Code = 200, SubCode = 20201, Name = "UserUpdate", Success = true)]
-        //UserUpdate = 20201,
+        UserFound = 20200,        
         [StateDisplay(Code = 200, SubCode = 20202, Name = "UserChangedPassword", Success = true)]
         UserChangedPassword = 20202,
         [StateDisplay(Code = 200, SubCode = 20203, Name = "UserCreate", Success = true)]
         UserCreate = 20203,
-        //[StateDisplay(Code = 204, SubCode = 20204, Name = "UserDeleted", Success = true)]
-        //UserDeleted = 20204,
         [StateDisplay(Code = 204, Name = "UserDeleted", Success = true)]
         UserDeleted = 20204,
         [StateDisplay(Code = 204, Name = "UserUpdate", Success = true)]
@@ -198,37 +194,6 @@ namespace ResponseStates.Enums
         UserEmailUpdate = 20206,
 
 
-        #endregion
-
-        #region NumberPlate
-        [StateDisplay(Code = 200, SubCode = 20300, Name = "NumberPlateRemove", Success = true)]
-        NumberPlateRemove = 20300,
-        [StateDisplay(Code = 200, SubCode = 20301, Name = "NumberPlateCreate", Success = true)]
-        NumberPlateCreate = 20301,
-
-        #endregion
-
-        #region Balance
-        [StateDisplay(Code = 200, SubCode = 20400, Name = "LoadBalanceSuccess", Success = true)]
-        LoadBalanceSuccess = 20400,
-        #endregion
-
-        #region Appeal
-        [StateDisplay(Code = 200, SubCode = 20500, Name = "AppealSuccess", Success = true)]
-        AppealSuccess = 20500,
-
-        #endregion
-
-        #region OILSTATION
-
-        [StateDisplay(Code = 200, SubCode = 20600, Name = "OilStationSuccess", Success = true)]
-        OilStationSuccess = 20600,
-
-        #endregion
-
-        #region CREDIT
-        [StateDisplay(Code = 200, SubCode = 20700, Name = "AppealCreditSuccess", Success = true)]
-        AppealCreditSuccess = 20700,
         #endregion
 
         #endregion
@@ -315,100 +280,6 @@ namespace ResponseStates.Enums
 
 
         #endregion
-
-        #region NumberPlate
-        [StateDisplay(Code = 400, SubCode = 40300, Name = "NumberPlateNotRemove", Success = false)]
-        NumberPlateNotRemove = 40300,
-        [StateDisplay(Code = 400, SubCode = 40301, Name = "NumberPlateNotCreate", Success = false)]
-        NumberPlateNotCreate = 40301,
-        [StateDisplay(Code = 400, SubCode = 40302, Name = "NumberPlateNotFound", Success = false)]
-        NumberPlateNotFound = 40302,
-        [StateDisplay(Code = 400, SubCode = 40303, Name = "NumberPlateCountZero", Success = false)]
-        NumberPlateCountZero = 40303,
-        [StateDisplay(Code = 400, SubCode = 40304, Name = "NumberPlateNotMatchUser", Success = false)]
-        NumberPlateNotMatchUser = 40304,
-
-
-        #endregion
-
-        #region Balance
-        [StateDisplay(Code = 400, SubCode = 40400, Name = "LoadBalanceError", Success = false)]
-        LoadBalanceError = 40400,
-        #endregion
-
-        #region APPEAL
-        [StateDisplay(Code = 400, SubCode = 40500, Name = "AppealError", Success = false)]
-        AppealError = 40500,
-        #endregion
-
-        #region GASSTATION
-        [StateDisplay(Code = 400, SubCode = 40600, Name = "OilStationError", Success = false)]
-        OilStationError = 40600,
-        [StateDisplay(Code = 400, SubCode = 40601, Name = "OilStationFoundSame", Success = false)]
-        OilStationFoundSame = 40601,
-        [StateDisplay(Code = 400, SubCode = 40602, Name = "GasStationNotFound", Success = false)]
-        GasStationNotFound = 40602,
-        [StateDisplay(Code = 400, SubCode = 40603, Name = "GasStationDeleted", Success = false)]
-        GasStationDeleted = 40603,
-        [StateDisplay(Code = 400, SubCode = 40604, Name = "GasStationBlocked", Success = false)]
-        GasStationBlocked = 40604,
-        [StateDisplay(Code = 400, SubCode = 40605, Name = "GasStationInActive", Success = false)]
-        GasStationInActive = 40605,
-        #endregion
-
-        #region FLEET
-        [StateDisplay(Code = 400, SubCode = 40700, Name = "FleetFoundSame", Success = false)]
-        FleetFoundSame = 40700,
-        #endregion
-
-        #region QRTRANSACTION
-
-        [StateDisplay(Code = 400, SubCode = 40800, Name = "QRTransactionNotFound", Success = false)]
-        QRTransactionNotFound = 40800,
-        [StateDisplay(Code = 400, SubCode = 40801, Name = "QRTransactionNotCreate", Success = false)]
-        QRTransactionNotCreate = 40801,
-        [StateDisplay(Code = 400, SubCode = 40802, Name = "QRTransactionConfirmed", Success = false)]
-        QRTransactionConfirmed = 40802,
-        [StateDisplay(Code = 400, SubCode = 40803, Name = "QRTransactionRejeted", Success = false)]
-        QRTransactionRejeted = 40803,
-        [StateDisplay(Code = 400, SubCode = 40804, Name = "QRTransactionTimeOut", Success = false)]
-        QRTransactionTimeOut = 40804,
-        [StateDisplay(Code = 400, SubCode = 40805, Name = "QRTransactionCanceled", Success = false)]
-        QRTransactionCanceled = 40805,
-
-        [StateDisplay(Code = 400, SubCode = 40806, Name = "QRTransactionNotConfirmed", Success = false)]
-        QRTransactionNotConfirmed = 40806,
-        [StateDisplay(Code = 400, SubCode = 40807, Name = "QRTransactionNotRejeted", Success = false)]
-        QRTransactionNotRejeted = 40807,
-        [StateDisplay(Code = 400, SubCode = 40804, Name = "QRTransactionNotTimeOut", Success = false)]
-        QRTransactionNotTimeOut = 40808,
-        [StateDisplay(Code = 400, SubCode = 40805, Name = "QRTransactionNotCanceled", Success = false)]
-        QRTransactionNotCanceled = 40809,
-        [StateDisplay(Code = 400, SubCode = 40805, Name = "QRTransactionNotWaiting", Success = false)]
-        QRTransactionNotWaiting = 40810,
-
-        #endregion
-
-        #region TRANSACTION
-
-        [StateDisplay(Code = 400, SubCode = 40900, Name = "TransactionNotFound", Success = false)]
-        TransactionNotFound = 40900,
-        [StateDisplay(Code = 400, SubCode = 40901, Name = "TransactionNotCreate", Success = false)]
-        TransactionNotCreate = 40901,
-        [StateDisplay(Code = 400, SubCode = 40902, Name = "NotEnoughCredit", Success = false)]
-        NotEnoughCredit = 40902,
-
-        #endregion
-
-        #region CREDIT
-
-
-        #endregion
-
-
-
-
-
 
         #endregion
     }

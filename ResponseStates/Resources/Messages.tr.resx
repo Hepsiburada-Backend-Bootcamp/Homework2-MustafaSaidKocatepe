@@ -117,23 +117,8 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="APIMobileUnexpectedError" xml:space="preserve">
-    <value>Beklenilmeyen bir hata ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="APIPosUnexpectedError" xml:space="preserve">
-    <value>Beklenilmeyen bir hata ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="AppealCreditSuccess" xml:space="preserve">
-    <value>Kredi yükleme talebiniz alınmıştır. </value>
-  </data>
-  <data name="AppealError" xml:space="preserve">
-    <value>Başvuru işleminiz sırasında bir hata oluştuğundan dolayı işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="AppealLoadCreditSuccess" xml:space="preserve">
-    <value>Kredi yükleme talebiniz alınmıştır.</value>
-  </data>
   <data name="AppealSuccess" xml:space="preserve">
-    <value>Başvuru işleminiz başarıyla tamamlanmıştır.</value>
+    <value />
   </data>
   <data name="AppKeyDeleted" xml:space="preserve">
     <value>Uygulama anahtarı silinmiştir.</value>
@@ -150,101 +135,11 @@
   <data name="BlockedUser" xml:space="preserve">
     <value>Kullanıcınız geçici olarak kullanılamaz. Lütfen, sitem yöneticisine başvurunuz.</value>
   </data>
-  <data name="CardAdd" xml:space="preserve">
-    <value>Kartınız başarıyla hesabınıza tanımlandı.</value>
-  </data>
-  <data name="CardBlocked" xml:space="preserve">
-    <value>Kartınız geçici olarak kullanılamaz.</value>
-  </data>
-  <data name="CardDeleted" xml:space="preserve">
-    <value>Geçerli kart bulunamadı.</value>
-  </data>
-  <data name="CardDeleteSuccess" xml:space="preserve">
-    <value>Kartınız başarıyla silinmiştir.</value>
-  </data>
-  <data name="CardFoundSame" xml:space="preserve">
-    <value>Aynı kart birden fazla eklenemez.</value>
-  </data>
-  <data name="CardInActive" xml:space="preserve">
-    <value>Aktif kart bulunamadı.</value>
-  </data>
-  <data name="CardLoadCredit" xml:space="preserve">
-    <value>Yükleme yapılmıştır.</value>
-  </data>
-  <data name="CardNotCreate" xml:space="preserve">
-    <value>Yeni kart eklenemedi.</value>
-  </data>
-  <data name="CardNotDelete" xml:space="preserve">
-    <value>Kartınız silinemedi.</value>
-  </data>
-  <data name="CardNotFound" xml:space="preserve">
-    <value>Geçerli kart bulunamadı.</value>
-  </data>
-  <data name="CardNotIncludeID" xml:space="preserve">
-    <value>Seçilen kart bilgisi kayıtlı kartlarınızın arasında bulunmamaktadır.</value>
-  </data>
-  <data name="CardNotUpdate" xml:space="preserve">
-    <value>Kartınız güncelenemedi.</value>
-  </data>
-  <data name="CardUpdateSuccess" xml:space="preserve">
-    <value>Kart başarıyla güncellendi.</value>
-  </data>
-  <data name="CardUserAdd" xml:space="preserve">
-    <value>Talebiniz alınmıştır.</value>
-  </data>
-  <data name="CommissionDeleted" xml:space="preserve">
-    <value>Firmanın komisyon oranı silinmiştir.</value>
-  </data>
-  <data name="CommissionNotFound" xml:space="preserve">
-    <value>Firmanın komisyon oranı bulunamamıştır.</value>
-  </data>
-  <data name="CompanyAppealCreated" xml:space="preserve">
-    <value>Kurum başvuru işleminiz başarıyla tamamlanmıştır.</value>
-  </data>
-  <data name="CompanyAppealNotCreated" xml:space="preserve">
-    <value>Bir hatadan dolayı kurum başvuru işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="CompanyAppealNotSendMail" xml:space="preserve">
-    <value>Başvurunuz alınmıştır fakat mail gönderiminde bir hata oluşmuştur.</value>
-  </data>
-  <data name="CompanyBlocked" xml:space="preserve">
-    <value>Kartınız geçici olarak kullanılamaz.</value>
-  </data>
-  <data name="CompanyFoundSame" xml:space="preserve">
-    <value>Aynı kurum birden fazla eklenemez.</value>
-  </data>
-  <data name="CompanyNoContent" xml:space="preserve">
-    <value>Yakınınızda firma bulunamadı.</value>
-  </data>
-  <data name="CompanyNotDelete" xml:space="preserve">
-    <value>Kurum silinemedi.</value>
-  </data>
-  <data name="CompanyNotSameID" xml:space="preserve">
-    <value>Token ile firma aynı kayıt ollmadığından işlem yapılamaz.</value>
-  </data>
-  <data name="CompanyNotUpdate" xml:space="preserve">
-    <value>Kurum buluanadı.</value>
-  </data>
   <data name="DeletedUser" xml:space="preserve">
     <value>Geçerli kullanıcı bulunamadı. Sistem yöneticisine başvurunuz.</value>
   </data>
   <data name="Error" xml:space="preserve">
     <value>İşlem Başarısız</value>
-  </data>
-  <data name="FleetFoundSame" xml:space="preserve">
-    <value>Aynı filo şirketi birden fazla eklenemez.</value>
-  </data>
-  <data name="GasStationBlocked" xml:space="preserve">
-    <value>Geçerli akaryakıt istasyonu bulunamadı.</value>
-  </data>
-  <data name="GasStationDeleted" xml:space="preserve">
-    <value>Geçerli akaryakıt istasyonu bulunamadı. </value>
-  </data>
-  <data name="GasStationInActive" xml:space="preserve">
-    <value>Aktif akaryakıt istasyonu bulunamadı.</value>
-  </data>
-  <data name="GasStationNotFound" xml:space="preserve">
-    <value>Kurum bulunamamıştır.</value>
   </data>
   <data name="InActiveUser" xml:space="preserve">
     <value>Aktif kullanıcı bulunamadı. Sistem yöneticisine başvurunuz.</value>
@@ -262,7 +157,7 @@
     <value>Eksik bilgi ile karşılaşıldığından, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="NoContent" xml:space="preserve">
-    <value> </value>
+    <value>NoContent</value>
   </data>
   <data name="NotEnoughCredit" xml:space="preserve">
     <value>Yeterli Kredi Bulunamaktadır.</value>
@@ -279,74 +174,8 @@
   <data name="NotSendMail" xml:space="preserve">
     <value>Kullanıcının mail adresine mail gönderilemedi. Lütfen daha sonra tekrar deneyiniz.</value>
   </data>
-  <data name="NumberPlateCountZero" xml:space="preserve">
-    <value>Bu kullanıcıya ait hiçbir plaka bulunamadığından işlem tamamlanamamıştır.</value>
-  </data>
-  <data name="NumberPlateCreate" xml:space="preserve">
-    <value>Plaka ekleme işleminiz başarıyla gerçekleşmiştir.</value>
-  </data>
-  <data name="NumberPlateNotCreate" xml:space="preserve">
-    <value>Plaka ekleme işlemi sırasında bir hata oluştuğundan dolayı işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="NumberPlateNotFound" xml:space="preserve">
-    <value>Sisteme kayıtlı böyle bir plaka bulunamamıştır.</value>
-  </data>
-  <data name="NumberPlateNotMatchUser" xml:space="preserve">
-    <value>Plaka ve kullanıcı eşleşmediğinden işlem tamamlanamamıştır.</value>
-  </data>
-  <data name="NumberPlateNotRemove" xml:space="preserve">
-    <value>Plaka silme işlemi başarısız.</value>
-  </data>
-  <data name="NumberPlateRemove" xml:space="preserve">
-    <value>Plaka başarılı bir şekilde silindi.</value>
-  </data>
-  <data name="OilStationError" xml:space="preserve">
-    <value>Benzin istasyonu ekleme işlemi sırasında bir hata ile karşılaşılmıştır. </value>
-  </data>
-  <data name="OilStationFoundSame" xml:space="preserve">
-    <value>Aynı benzin istasyonu birden fazla eklenemez.</value>
-  </data>
-  <data name="OilStationSuccess" xml:space="preserve">
-    <value>Benzin istasyonu ekleme işleminiz başarıyla tamamlanmıştır.</value>
-  </data>
   <data name="OK" xml:space="preserve">
     <value>İşlem Başarılı.</value>
-  </data>
-  <data name="QRTransactionCanceled" xml:space="preserve">
-    <value>QR ile satış iptal edilmiştir.</value>
-  </data>
-  <data name="QRTransactionCantPrintReceipt" xml:space="preserve">
-    <value>QR ile satış işlemi tamamlanmıştır. Fakat fiş basım işlemi gerçekleştiremeyecektir.</value>
-  </data>
-  <data name="QRTransactionConfirmed" xml:space="preserve">
-    <value>QR ile satış onaylanmıştır.</value>
-  </data>
-  <data name="QRTransactionNotCanceled" xml:space="preserve">
-    <value>QR ile satış iptal edilememiştir.</value>
-  </data>
-  <data name="QRTransactionNotConfirmed" xml:space="preserve">
-    <value>QR ile satış onaylanamamıştır.</value>
-  </data>
-  <data name="QRTransactionNotCreate" xml:space="preserve">
-    <value>QR Ödeme işlemi gerçekleştirlemedi.</value>
-  </data>
-  <data name="QRTransactionNotFound" xml:space="preserve">
-    <value>Geçerli QR satış bilgisi bulunamadı.</value>
-  </data>
-  <data name="QRTransactionNotRejeted" xml:space="preserve">
-    <value>QR ile satış reddedilememiştir.</value>
-  </data>
-  <data name="QRTransactionNotTimeOut" xml:space="preserve">
-    <value>QR satış işlem süresi aşılması işlenmemiştir.</value>
-  </data>
-  <data name="QRTransactionNotWaiting" xml:space="preserve">
-    <value>QR okumasında bir hata ile karşılaşıldı.</value>
-  </data>
-  <data name="QRTransactionRejeted" xml:space="preserve">
-    <value>QR ile satış reddedilmiştir.</value>
-  </data>
-  <data name="QRTransactionTimeOut" xml:space="preserve">
-    <value>QR satış işlem süresi aşılmıştır. Lütfen yeni satış yapınız.</value>
   </data>
   <data name="Success" xml:space="preserve">
     <value>İşlem Başarılı</value>
@@ -359,24 +188,6 @@
   </data>
   <data name="TokenNotFound" xml:space="preserve">
     <value>Oturum bilgisi bulunamadı. Lütfen, giriş yapınız.</value>
-  </data>
-  <data name="TransactionNoContent" xml:space="preserve">
-    <value>Gösterilecek kart geçmişi bulunmamaktadır.</value>
-  </data>
-  <data name="TransactionNotCreate" xml:space="preserve">
-    <value>Ödeme işlemi gerçekleştirlemedi.</value>
-  </data>
-  <data name="TransactionNotEnoughDistance" xml:space="preserve">
-    <value>Pos cihazı ile Mobil cihazın konumları arasında {0} metreden fazla mesafe bulunduğundan. Satış işlemi gerçekleştirilemedi.</value>
-  </data>
-  <data name="TransactionTypeNotCreate" xml:space="preserve">
-    <value>Ödeme tipi oluşturulamadı.</value>
-  </data>
-  <data name="TransactionTypeNotFound" xml:space="preserve">
-    <value>Ödeme tipi bulunamadığından, işleminiz tamamlanamamıştır.</value>
-  </data>
-  <data name="TransactionWrongCardType" xml:space="preserve">
-    <value>Seçilen ödeme tipi ile kullanılmak istenilen ödeme tipleri farklı olduğundan, işleminiz tamamlanamamıştır.</value>
   </data>
   <data name="Unauthorized" xml:space="preserve">
     <value>Yetkisiz.</value>
